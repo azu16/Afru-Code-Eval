@@ -5,6 +5,9 @@ Sample Output: 8 ->0 1 1 2 3 5 8 13
 public class Fibo1
 {
 	int[] arr = new int[10];
+	
+  // This function is very ill-implemented - in Fibonacci series we know a[0]=0 and a[1] is 1	
+  //  Start for loop as i=2 and not as i=1+2 - it does not buy you anything, it reduces the readability
   public int[] num(int n)
    {     int i = 0;
  	    arr[i] = 0;
