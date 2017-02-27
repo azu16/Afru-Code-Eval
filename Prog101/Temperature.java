@@ -15,6 +15,7 @@ public class Temperature
 			  return b1;
 		  }
 	  }
+	  //Think carefully - do you need this if statement?
 	  if(a < 0 || b < 0)
 	  {
 		  if(a > 100 || b > 100)
