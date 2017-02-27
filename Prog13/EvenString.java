@@ -2,6 +2,9 @@
 Sample Input: 1. firstHalf("WooHoo") -> Woo 2. firstHalf("HelloThere") -> Hello
 Sample Output: 3. firstHalf("abcdef") -> abc
 */
+
+//AFru Comments ---> you can use string and use charAt() function instead of converting to char array
+//Also use StringBuilder class --> read about it.
 public class EvenString
 {
 	String fin = "";
