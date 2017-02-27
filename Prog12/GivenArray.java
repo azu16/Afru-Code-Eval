@@ -28,5 +28,21 @@ public class GivenArray
 
     		 }
   		 return comp;
-}
+    }
+   //Take a look at this implementation and try to see what can you learn the way its return
+    public boolean numAfru(int[] a1)
+    {
+        //This is a null check - what if the list is null - not even initialized
+        if(a1==null || a1.length==0){
+            return false;
+        }  
+    	  //This for loop has 2 conditions - that is very standard, I have not tested this code - try to run it
+        for(int i = 0; i < 4 && i<a1.length; i++)
+        {
+            if(a1[i] == 9)
+    			      return true;
+        }
+  		  return false;
+    }
+  
 }
