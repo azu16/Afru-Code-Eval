@@ -15,4 +15,20 @@ public class StartHi
 	  }
 	  return b1;
   }
+	
+  //Afru - Another way to implement - take a close look.
+  public boolean find(String s1)
+  {
+      if(s.lowerCase().charAt(0)=='h' && s.lowerCase().charAt(1)=='i')
+      {
+          return true;
+      }
+      return false;
+  }
+  
+  ////Afru - Another way to implement - very compact - just to see how many ways we can write.	
+  public boolean find(String s1)
+  {
+      return(s.lowerCase().charAt(0)=='h' && s.lowerCase().charAt(1)=='i')?true:false;
+  }
 }
