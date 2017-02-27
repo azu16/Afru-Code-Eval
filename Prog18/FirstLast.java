@@ -19,4 +19,18 @@ public class FirstLast
 
 	   return t;
   }
+	
+  //This can be also be solved using 2 pointers( your approach is correct too!)
+  public String afruArrange(String s1, int m){
+      if(s1==null){
+          return null;
+      }
+      StringBuilder sb1 = new StringBuilder();
+      StringBuilder sb2 = new StringBuilder();
+      for(int i=0,j=s1.length-1-m;i<m && j<s1.length;i++,j++){
+          sb1.append(s1.charAt(i));  
+	  sb2.append(s1.charAt(j));      
+      }	  
+      return sb1.append(sb2.toString()).toString();	  
+  }
 }
