@@ -2,6 +2,12 @@
 Sample Input: 1. swapEnds({1, 2, 3, 4}) -> {4, 2, 3, 1} 2. swapEnds({1, 2, 3}) -> {3, 2, 1}
 Sample Output: 3. swapEnds({8, 6, 7, 9, 5}) -> {5, 6, 7, 9, 8}
 */
+
+
+
+//Afru CCOMMENTS ----> Is java "pass by value" or "pass by reference" or something else. If you have not heard about these terms
+//then search them and write and send me your understanding.
+//In the below code do we need to "int[] a3 = a2;"
 public class SwapArray
 {
   public int[] mod(int[] a2)
