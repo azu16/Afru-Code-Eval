@@ -6,6 +6,8 @@ public class OneOrFour
 {
 	int count;
 	int count1;
+//AFRU COMMENTS
+	// You must initialize the variable - if the input is more14({2,2}), what will your program output?
 	boolean b1;
   public boolean find(int[] a1)
   {
