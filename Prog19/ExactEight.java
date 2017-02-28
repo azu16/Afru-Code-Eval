@@ -19,4 +19,16 @@ public class ExactEight
 	     b1 = true;
 	     return b1;
   }
+  
+ // Bring that if statement inside for loop - this will save any further look until the end of the array in case the sum is already 8.	
+  public boolean afruCheck(int[] a1)
+  {
+      for(int i = 0; i < a1.length; i++)
+      {
+	  if(sum == 8)
+	     return true;
+          if(a1[i] == 2)
+              sum+= 2;	   
+      }
+  }	  
 }
