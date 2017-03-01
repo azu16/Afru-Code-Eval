@@ -2,6 +2,9 @@
 Sample Input: 1. twoAsOne(1, 2, 3) -> true 2. twoAsOne(3, 1, 2) -> true
 Sample Output: 3. twoAsOne(3, 2, 2) -> false
 */
+
+
+//AFRU COMMENTS : Please initialize 'b1'
 public class SumOfTwo
 {
 	boolean b1;
