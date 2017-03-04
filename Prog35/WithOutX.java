@@ -29,9 +29,9 @@ public class WithOutX
 	  	  for(int i = 0; i < a.length - 1; i++)
 	  	  {
 	  		  f = f + a[i];
-	      }
-	      return f;
-      }
+	          }
+	          return f;
+         }
 	      else
 	     {
 		  	  for(int i = 0; i < a.length; i++)
